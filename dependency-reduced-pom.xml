@@ -50,7 +50,7 @@
           <excludes>
             <exclude>**/*Config.*</exclude>
             <exclude>**/*Dev.*</exclude>
-            <exclude>**/com/xebia/Hello*</exclude>
+            <exclude>**/com/xebia/HelloWorld*</exclude>
           </excludes>
         </configuration>
       </plugin>
