@@ -47,6 +47,11 @@
         <configuration>
           <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
           <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
+          <excludes>
+            <exclude>**/*Config.*</exclude>
+            <exclude>**/*Dev.*</exclude>
+            <exclude>**/com/xebia/Hello*</exclude>
+          </excludes>
         </configuration>
       </plugin>
       <plugin>
