@@ -6,5 +6,6 @@ public class Greeter {
     }
 
 
+    //todo check sonar
     public String sayIt(String name){ return "Hello " + name; }
 }
