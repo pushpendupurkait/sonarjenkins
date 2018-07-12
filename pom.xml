@@ -91,5 +91,7 @@
         <sonar.sources>src/main</sonar.sources>
         <sonar.jacoco.reportPaths>target/coverage-reports/jacoco-unit.exec</sonar.jacoco.reportPaths>
         <sonar.java.binaries>target</sonar.java.binaries>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 </project>
