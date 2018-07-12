@@ -78,8 +78,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
+                    <source>1.6</source>
+                    <target>1.6</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -91,7 +91,5 @@
         <sonar.sources>src/main</sonar.sources>
         <sonar.jacoco.reportPaths>target/coverage-reports/jacoco-unit.exec</sonar.jacoco.reportPaths>
         <sonar.java.binaries>target</sonar.java.binaries>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 </project>
