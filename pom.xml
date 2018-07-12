@@ -84,4 +84,11 @@
             </plugin>
         </plugins>
     </build>
+    <properties>
+        <sonar.host.url>http://localhost:9000/</sonar.host.url>
+        <sonar.projectKey>sonar-jenkins</sonar.projectKey>
+        <sonar.projectName>sonar-jenkins</sonar.projectName>
+        <sonar.sources>src/main</sonar.sources>
+        <sonar.jacoco.reportPaths>target/coverage-reports/jacoco-unit.exec</sonar.jacoco.reportPaths>
+    </properties>
 </project>
